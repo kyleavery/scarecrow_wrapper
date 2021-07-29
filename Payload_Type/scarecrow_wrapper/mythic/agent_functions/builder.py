@@ -7,7 +7,7 @@ from distutils.dir_util import copy_tree
 import base64
 
 
-class ServiceWrapper(PayloadType):
+class ScarecrowWrapper(PayloadType):
     name = "scarecrow_wrapper"
     file_extension = "exe"
     author = "Kyle Avery"
